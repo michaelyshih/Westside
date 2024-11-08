@@ -34,24 +34,6 @@ function ProjectContent({ project, richTexts, projectsOverview }) {
                             </div>
                         </Col>
                     </div>
-                    <div className="group-img row g-0">
-                        <Col xs={{ span: 7 }}>
-                            <div className={classes.single_img}>
-                                <img
-                                    src={project?.groupImageThree}
-                                    alt={project?.title}
-                                />
-                            </div>
-                        </Col>
-                        <Col xs={{ span: 5 }}>
-                            <div className={classes.single_img}>
-                                <img
-                                    src={project?.groupImageFour}
-                                    alt={project?.title}
-                                />
-                            </div>
-                        </Col>
-                    </div>
                 </Col>
             </div>
             <div className={classes.content}>
@@ -64,8 +46,6 @@ function ProjectContent({ project, richTexts, projectsOverview }) {
                 </h3>
                 <p className={classes.summery_desc}>{project?.summeryDesc}</p>
             </div>
-            <RichText richTexts={richTexts} />
-            <ProjectOverview projectsOverview={projectsOverview} />
         </Col>
     );
 }

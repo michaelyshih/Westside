@@ -94,12 +94,6 @@ function Header() {
                             </Col>
                             <Col xl={6} lg={4} sm={6}>
                                 <div className={classes.right}>
-                                    <div>
-                                        <Link href="/login-register">
-                                            Login
-                                            <span>/ Register</span>
-                                        </Link>
-                                    </div>
                                     <div
                                         className={`${
                                             search
@@ -161,115 +155,14 @@ function Header() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services">
-                                                <span>Service</span>
-                                            </Link>
-                                        </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="/projects/project-fullwidth">
+                                            <Link href="/projects">
                                                 <span>Projects</span>
                                             </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/projects/project-2-columns">
-                                                        Project 2 Columns
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/projects/project-gallery">
-                                                        Project Gallery
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/projects/project-slider">
-                                                        Project Slider
-                                                    </Link>
-                                                </li>
-                                            </ul>
                                         </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="/">
-                                                <span>Pages</span>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/our-clients">
-                                                        Our Clients
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/our-team">
-                                                        Our Team
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/our-working-process">
-                                                        Our Working Process
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="/blogs/blog-fullwidth">
-                                                <span>Blogs</span>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/blogs/blog-leftsidebar">
-                                                        Blog Left Sidebar
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/blog-rightsidebar">
-                                                        Blog Right Sidebar
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className={classes.separator}>
+                                        <li>
                                             <Link href="/contact">
                                                 <span>Contact</span>
                                             </Link>
-                                        </li>
-                                        <li
-                                            className={`${
-                                                search
-                                                    ? 'search-show'
-                                                    : 'search-hide'
-                                            }`}
-                                        >
-                                            <buton
-                                                className={classes.search__btn}
-                                                onClick={SearchToggle}
-                                            >
-                                                <FaSearch />
-                                            </buton>
-                                            <form className="search-form">
-                                                <input
-                                                    className="search-input"
-                                                    type="search"
-                                                    name="search"
-                                                    placeholder="Search"
-                                                />
-                                                <button
-                                                    className="search-inner__btn"
-                                                    type="submit"
-                                                >
-                                                    <FaSearch />
-                                                </button>
-                                            </form>
                                         </li>
                                     </ul>
                                 </nav>
