@@ -23,30 +23,6 @@ function ProjectSidebar({ projectsSidebar }) {
                             ))}
                         </ul>
                     </div>
-                    <div
-                        className={`${classes.sidebar_brochure__widget}  mb-30`}
-                    >
-                        <ul className={`${classes.sidebar_brochure__list}`}>
-                            {sidebarItem?.downloadBrochure?.map(
-                                (brochureItem) => (
-                                    <li key={brochureItem.id}>
-                                        <Link
-                                            href={brochureItem?.path}
-                                            download
-                                        >
-                                            {brochureItem?.listItem}
-                                        </Link>
-                                    </li>
-                                )
-                            )}
-                        </ul>
-                    </div>
-                    <div className={`${classes.sidebar_widget__banner}`}>
-                        <img
-                            src={sidebarItem?.widgetBanner}
-                            alt={sidebarItem?.widgetBannerAlt}
-                        />
-                    </div>
                 </div>
             ))}
         </Col>

@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
-import BannerFive from '../../components/banner/index-5';
 import Breadcrumb from '../../components/breadcrumb';
-import Newsletter from '../../components/newsletter/newsletter';
 import ProjectDetail from '../../components/projects/project-detail';
 import Footer from '../../components/layout/footer';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
@@ -12,8 +10,6 @@ function ProjectDetailPage({
     projectsSidebar,
     richTexts,
     projectsOverview,
-    bannerTwoItems,
-    newsletterItems,
     footerItems,
 }) {
     return (
@@ -36,8 +32,6 @@ function ProjectDetailPage({
                 richTexts={richTexts}
                 projectsOverview={projectsOverview}
             />
-            <BannerFive bannerTwoItems={bannerTwoItems} />
-            <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>
     );
@@ -51,8 +45,6 @@ export function getStaticProps(context) {
     const projectsSidebar = getAllItems('project-sidebar');
     const richTexts = getAllItems('rich-text');
     const projectsOverview = getAllItems('project-overview');
-    const bannerTwoItems = getAllItems('banner-2');
-    const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
 
     return {
@@ -61,8 +53,6 @@ export function getStaticProps(context) {
             projectsSidebar,
             richTexts,
             projectsOverview,
-            bannerTwoItems,
-            newsletterItems,
             footerItems,
         },
     };
@@ -86,8 +76,6 @@ ProjectDetailPage.propTypes = {
     projectsSidebar: PropTypes.instanceOf(Object).isRequired,
     richTexts: PropTypes.instanceOf(Object).isRequired,
     projectsOverview: PropTypes.instanceOf(Object).isRequired,
-    bannerTwoItems: PropTypes.instanceOf(Object).isRequired,
-    newsletterItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 

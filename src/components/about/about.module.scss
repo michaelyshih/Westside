@@ -4,15 +4,12 @@
 .area {
     @include breakpoint(min-xl-device) {
         padding-top: 130px;
-        padding-bottom: 130px;
     }
     @include breakpoint(lg-device) {
         padding-top: 100px;
-        padding-bottom: 100px;
     }
     @include breakpoint(max-md-device) {
         padding-top: 50px;
-        padding-bottom: 50px;
     }
 }
 .section {
