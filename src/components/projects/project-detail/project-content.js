@@ -15,26 +15,6 @@ function ProjectContent({ project, richTexts, projectsOverview }) {
                         <img src={imagePath} alt={project?.title} />
                     </div>
                 </Col>
-                <Col md={{ span: 7 }}>
-                    <div className="group-img row g-0 mb-20">
-                        <Col xs={{ span: 6 }}>
-                            <div className={classes.single_img}>
-                                <img
-                                    src={project?.groupImageOne}
-                                    alt={project?.title}
-                                />
-                            </div>
-                        </Col>
-                        <Col xs={{ span: 6 }}>
-                            <div className={classes.single_img}>
-                                <img
-                                    src={project?.groupImageTwo}
-                                    alt={project?.title}
-                                />
-                            </div>
-                        </Col>
-                    </div>
-                </Col>
             </div>
             <div className={classes.content}>
                 <h2 className={classes.title}>{project?.title}</h2>

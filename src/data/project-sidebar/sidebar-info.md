@@ -5,35 +5,31 @@ sidebarList:
     [
         {
             id: 'sidebarList-01',
-            listItem: 'Client name: <span class="text-primary">Rosebel Group</span>',
+            listItem: 'Industry: <span class="text-primary">Automobile Industry, Food & Drink Processing, Petrochemical, Paper-Making Industry, Wastewater Treatment & Water Relevant Industry</span>',
         },
         {
             id: 'sidebarList-02',
-            listItem: 'Location: <span class="text-primary">New York</span>',
+            listItem: 'Application: <span class="text-primary">Centrifugal Pumps, Water Pumps, Rotary Pumps and other machines with rotary axis</span>',
         },
         {
             id: 'sidebarList-03',
-            listItem: 'Area: <span class="text-primary">8500 sqft</span>',
+            listItem: 'R.P.M.: <span class="text-primary">2400~14700 (Depending on size)</span>',
         },
         {
             id: 'sidebarList-04',
-            listItem: 'Budget: <span class="text-primary">$64,56,000</span>',
+            listItem: 'Temperature: <span class="text-primary">-4°F～356°F (Depending on material)</span>',
         },
         {
             id: 'sidebarList-05',
-            listItem: 'Architect: <span class="text-primary">Oxybuild</span>',
+            listItem: 'Material: <span class="text-primary">Rotary face: Carbon, Antimony carbon</span>',
         },
         {
             id: 'sidebarList-06',
-            listItem: 'Contractor: <span class="text-primary">Oxybuild</span>',
+            listItem: 'Material: <span class="text-primary">Stationary face: Ceramic, Silicon carbide</span>',
         },
         {
             id: 'sidebarList-07',
-            listItem: 'Start date: <span class="text-primary">25 Aug, 2020</span>',
-        },
-        {
-            id: 'sidebarList-08',
-            listItem: 'Delivery date: <span class="text-primary">25 Aug, 2022</span>',
+            listItem: 'Material: <span class="text-primary">Rubber parts: NBR, Viton, Silicon, EPDM, HNBR</span>',
         },
     ]
 downloadBrochure:
