@@ -1,9 +1,9 @@
 ---
 id: 'hero-02'
 heroBG: 'slide-bg slide-bg-02'
-subtitle: 'Since 1995'
-desc: '<p class="text-white">Construction of itself, because it is pain, but because some proper style design occur in which toil and pain pleasure.</p>'
-title: '<h2 class="text-white">We Construct <br> your <span>Dream</span></h2>'
-btnSecondaryText: 'Learn More'
+subtitle: 'Since 1981'
+desc: '<p class="text-white">At Westside Ltd., we deliver exceptional mechanical sealing solutions, supporting industries worldwide with reliability and efficiency.</p>'
+title: '<h2 class="text-white">Driving Innovation for <br> <span>Industrial Excellence</span></h2>'
+btnSecondaryText: 'Explore Projects'
 btnPrimaryText: 'Contact Us'
 ---

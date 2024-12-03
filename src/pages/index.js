@@ -9,10 +9,18 @@ function HomePage({ heroItems, aboutItemsTwo, footerItems }) {
     return (
         <>
             <Head>
-                <title>Home - Oxybuild</title>
+                <title>Home</title>
+                <meta
+                    name="title"
+                    content="Westside Ltd. | Global Quality Sealing Products Since 1981"
+                />
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="Westside Ltd. has supplied quality sealing products globally since 1981. Offering mechanical seals and customized molded and machined parts for industrial applications. Contact us for your sealing solutions!"
+                />
+                <meta
+                    name="keywords"
+                    content="mechanical seals, sealing products, industrial seals, molded parts, machined parts, Teflon, Viton, silicon rubber, stainless steel, Silicon carbide, customized sealing solutions, global industrial market"
                 />
             </Head>
             <Hero heroItems={heroItems} />
