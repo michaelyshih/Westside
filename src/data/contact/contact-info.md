@@ -1,45 +1,69 @@
 ---
 id: 'contact-01'
 image: '/images/contact/1-1-510x587.jpg'
-imageAlt: 'Contact Image'
+imageAlt: 'Taipei Main Office'
 pattern: '/images/contact/pattern.png'
-patternAlt: 'Contact Pattern'
-subTitle: 'Do you have a project? let’s start'
-title: 'Contact with us'
-desc: 'Construction of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features..'
+patternAlt: 'Taipei Contact Pattern'
+subTitle: 'Need assistance? We are here to help'
+title: 'Contact Our Team'
+desc: 'We are dedicated to providing high-quality sealing products and support for your industrial needs. Reach out to us for personalized assistance.'
 addressTitle: 'Office Address'
-addressDesc: 'Melbourne’s GPO 434 Bourke St. Dhaka VIC 3074, Australia'
+addressDesc: '2F., No.3, Aly.4, Ln.185, Sec.6, Zhongxiao E. Rd., Nangang Dist., Taipei City 11557, Taiwan (R.O.C.)'
 infoTitle: 'Contact Info'
 infoList:
     [
         {
             id: 'infoList-01',
             listText: 'Phone:',
-            path: 'tel://+096-12458-875-895',
-            listValue: '+12345 879 854',
+            path: 'tel:+886-2-2785-9030',
+            listValue: '+886-2-2785-9030',
         },
         {
             id: 'infoList-02',
             listText: 'Fax:',
-            path: 'tel://+096-12547-895-874',
-            listValue: '(+096) 12547 895 874',
+            path: 'tel:+886-2-2785-7602',
+            listValue: '+886-2-2785-7602',
         },
         {
             id: 'infoList-03',
-            listText: 'Email:',
-            path: 'mailto://info@example.com',
-            listValue: 'info@example.com',
+            listText: '[Sales] Jackie Chang:',
+            path: 'mailto:wesealjackie@gmail.com',
+            listValue: 'wesealjackie@gmail.com',
         },
         {
             id: 'infoList-04',
-            listText: 'Web:',
-            path: 'mailto://www.example.com',
-            listValue: 'www.example.com',
+            listText: '[Sales] Alice Chang:',
+            path: 'mailto:weseal.alice@msa.hinet.net',
+            listValue: 'weseal.alice@msa.hinet.net',
+        },
+        {
+            id: 'infoList-05',
+            listText: '[Sales] Yvette Huang:',
+            path: 'mailto:wesealyvette@gmail.com',
+            listValue: 'wesealyvette@gmail.com',
+        },
+        {
+            id: 'infoList-06',
+            listText: '[Engineer] Selina Kuo:',
+            path: 'mailto:wesealselina@gmail.com',
+            listValue: 'wesealselina@gmail.com',
+        },
+        {
+            id: 'infoList-07',
+            listText: '[Design Engineer] Gary Chang:',
+            path: 'mailto:wesealgary@gmail.com',
+            listValue: 'wesealgary@gmail.com',
+        },
+        {
+            id: 'infoList-08',
+            listText: '[Design Engineer] Shang Yi Lin:',
+            path: 'mailto:shangyi731229@gmail.com',
+            listValue: 'shangyi731229@gmail.com',
         },
     ]
 btnText: 'Submit'
 formTitle: 'Leave a Message'
-formDesc: 'Top rated construction packages we pleasure ationally obtain simple and easy'
+formDesc: 'Have questions or need additional information? Let us know how we can assist you. Fill out the form below, and we will get back to you as soon as possible.'
 mapPattern: '/images/contact/pattern.png'
-mapPatternAlt: 'Map Pattern'
+mapPatternAlt: 'Decorative Map Pattern'
 ---
