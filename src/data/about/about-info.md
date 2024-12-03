@@ -1,31 +1,31 @@
 ---
 id: 'about-01'
-sectionTitle: 'We Construct your needs'
-sectionSubtitle: 'About Us'
-sectionDesc: 'Construction of itself, because it is pain, but <br /> because some proper style design occur in toil and pain pleasure we have expert team'
+sectionTitle: 'About Westside Ltd.'
+sectionSubtitle: 'Our Journey'
+sectionDesc: 'Since 1981, Westside Ltd. has been a trusted provider of quality-sealing products for the global industrial marketplace. With facilities in Taiwan, Shanghai, and two factories in China, we deliver cost-effective solutions for any pumping job.'
 image: '/images/about/1-1.jpg'
-alt: 'About Image'
+alt: 'Westside Factory'
 pattern: '/images/about/pattern.png'
-patternAlt: 'Pattern'
-experienceYear: '25'
-ourProgress: 'Years of <span>Experience</span>'
+patternAlt: 'Decorative Pattern'
+experienceYear: '40+'
+ourProgress: 'Years of <span>Excellence</span>'
 experienceImage: '/images/about/avatar.png'
-experienceAlt: 'Avatar'
-aboutSubtitle: 'Provide the best Constructing services for our client with their satisfaction'
-aboutDesc: 'Construction of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features..'
+experienceAlt: 'Experience Icon'
+aboutSubtitle: 'Striving for Excellence'
+aboutDesc: 'We specialize in mechanical seals for diverse applications and provide molded and machined parts using advanced materials like Teflon, Viton, and stainless steel.'
 listItem:
     [
         {
             id: 'listItem-01',
-            listText: 'Construction of itself, because it is pain, but because proper style design occur in toil and pain pleasure',
+            listText: 'Customized sealing solutions for industrial needs',
         },
         {
             id: 'listItem-02',
-            listText: 'Construction of itself, because it is pain, but because proper style design occur in toil and pain pleasure',
+            listText: 'Molded and machined parts with advanced materials',
         },
         {
             id: 'listItem-03',
-            listText: 'Construction of itself, because it is pain, but because proper style design occur in toil and pain pleasure',
+            listText: 'Global facilities serving customers worldwide',
         },
     ]
 checkIcon: 'FaCheck'

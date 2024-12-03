@@ -11,16 +11,24 @@ function AboutPage({ aboutItems, bannerItems, footerItems }) {
     return (
         <>
             <Head>
-                <title>About Us - Oxybuild</title>
+                <title>About Us</title>
+                <meta
+                    name="title"
+                    content="Westside Ltd. | Global Quality Sealing Products Since 1981"
+                />
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="Westside Ltd. has supplied quality sealing products globally since 1981. Offering mechanical seals and customized molded and machined parts for industrial applications. Contact us for your sealing solutions!"
                 />
-        </Head>
+                <meta
+                    name="keywords"
+                    content="mechanical seals, sealing products, industrial seals, molded parts, machined parts, Teflon, Viton, silicon rubber, stainless steel, Silicon carbide, customized sealing solutions, global industrial market"
+                />
+            </Head>
             <Breadcrumb
                 subTitle="What we do"
                 title="About us"
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc="Since 1981, Westside Ltd. has been supplying quality sealing products to the global industrial market, striving to reduce pump parts life cycle costs and ensuring customer satisfaction."
             />
             <AboutOne aboutItems={aboutItems} />
             <BannerOne bannerItems={bannerItems} />
