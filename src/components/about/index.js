@@ -60,12 +60,6 @@ function AboutOne({ aboutItems }) {
                                                 }}
                                             />
                                         </div>
-                                        <div className={classes.experience_img}>
-                                            <img
-                                                src={aboutItem?.experienceImage}
-                                                alt={aboutItem?.experienceAlt}
-                                            />
-                                        </div>
                                     </div>
                                     <h3 className={classes.subtitle}>
                                         {aboutItem?.aboutSubtitle}
