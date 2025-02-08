@@ -1,6 +1,6 @@
 ---
 id: 'project-sidebar-01'
-title: 'Project Info'
+title: 'Seal Specification'
 sidebarList:
     [
         {
