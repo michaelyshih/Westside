@@ -14,12 +14,10 @@ function ProjectSidebar({ projectsSidebar }) {
                         </h2>
                         <ul className={classes.sidebar_list}>
                             {sidebarItem?.sidebarList?.map((singleList) => (
-                                <li
-                                    dangerouslySetInnerHTML={{
-                                        __html: singleList.listItem,
-                                    }}
-                                    key={singleList.id}
-                                />
+                                <li key={singleList.id}>
+                                    <span className={classes.sidebar_list_title}>{singleList.title}:</span>
+                                    <span className={classes.sidebar_list_value}>{singleList.value}</span>
+                                </li>
                             ))}
                         </ul>
                     </div>

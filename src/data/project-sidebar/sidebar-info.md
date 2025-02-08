@@ -5,31 +5,38 @@ sidebarList:
     [
         {
             id: 'sidebarList-01',
-            listItem: 'Industry: <span class="text-primary">Automobile Industry, Food & Drink Processing, Petrochemical, Paper-Making Industry, Wastewater Treatment & Water Relevant Industry</span>',
+            title: 'Industry',
+            value: 'Automobile Industry, Food & Drink Processing, Petrochemical, Paper-Making Industry, Wastewater Treatment & Water Relevant Industry',
         },
         {
             id: 'sidebarList-02',
-            listItem: 'Application: <span class="text-primary">Centrifugal Pumps, Water Pumps, Rotary Pumps and other machines with rotary axis</span>',
+            title: 'Application',
+            value: 'Centrifugal Pumps, Water Pumps, Rotary Pumps and other machines with rotary axis',
         },
         {
             id: 'sidebarList-03',
-            listItem: 'R.P.M.: <span class="text-primary">2400~14700 (Depending on size)</span>',
+            title: 'R.P.M.',
+            value: '2400~14700 (Depending on size)',
         },
         {
             id: 'sidebarList-04',
-            listItem: 'Temperature: <span class="text-primary">-4°F～356°F (Depending on material)</span>',
+            title: 'Temperature',
+            value: '-4°F～356°F (Depending on material)',
         },
         {
             id: 'sidebarList-05',
-            listItem: 'Material: <span class="text-primary">Rotary face: Carbon, Antimony carbon</span>',
+            title: 'Rotary Face Material',
+            value: 'Carbon, Antimony carbon',
         },
         {
             id: 'sidebarList-06',
-            listItem: 'Material: <span class="text-primary">Stationary face: Ceramic, Silicon carbide</span>',
+            title: 'Stationary Face Material',
+            value: 'Ceramic, Silicon carbide',
         },
         {
             id: 'sidebarList-07',
-            listItem: 'Material: <span class="text-primary">Rubber parts: NBR, Viton, Silicon, EPDM, HNBR</span>',
+            title: 'Rubber Material',
+            value: 'NBR, Viton, Silicon, EPDM, HNBR',
         },
     ]
 downloadBrochure:
